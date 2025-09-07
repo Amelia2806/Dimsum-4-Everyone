@@ -503,13 +503,9 @@ button {
   margin-top: -272px;
 }
 
-/** end Our Juices  section **/
-
-/** testimonial section **/
-
 .testimonial {
-  padding: 60px 0px 400px 0px;
-  background: #fff;
+  overflow: hidden;
+  position: relative;
 }
 
 .testimonial .titlepage {
@@ -546,6 +542,19 @@ button {
   font-weight: 600;
   padding: 23px 0px 12px 0px;
 }
+.testimonial_Carousel .carousel-inner {
+  overflow: visible !important;
+}
+
+.testimonial_Carousel .carousel-indicators {
+  position: static;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.testimonial_Carousel .carousel-indicators {
+  bottom: 0 !important;
+}
 
 .testimonial_Carousel .test_box i {
   text-align: center;
@@ -562,14 +571,11 @@ button {
 }
 
 .testimonial_Carousel .carousel-indicators {
-  bottom: -50px;
+  bottom: 0 !important;
 }
 
 .testimonial_Carousel .carousel-indicators li {
-  width: 25px;
-  height: 25px;
-  border-radius: 20px;
-  background: #faef9d;
+  margin: 0 4px;
 }
 
 .testimonial_Carousel .carousel-indicators li.active {
@@ -585,10 +591,6 @@ button {
 #myCarousel .carousel-control-prev-icon {
   display: none;
 }
-
-/** end testimonial section **/
-
-/** footer **/
 
 .footer::before {
   content: '';
