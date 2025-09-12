@@ -504,11 +504,10 @@ button {
 }
 
 .testimonial {
-  background-color: #F5E6C4;
+  background: #faffeb8f;
+  background-size: cover;
   padding: 40px 0 10px 0;
   width: 100%;
-  position: relative;
-  overflow: hidden;
 }
 .testimonial .container {
   padding-left: 15px;
@@ -828,7 +827,7 @@ ul.location_icon li a:hover {
 .testi-card {
   border: 2px solid #ff7b00;
   border-radius: 14px;
-  background-color: #ffffff;
+  background-color: #faffeb00;
   padding: 25px 20px;
   transition: all 0.3s ease;
   height: 100%;
